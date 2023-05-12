@@ -1,3 +1,8 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+@mixin theme($theme: aliceblue) {
+  background: $theme;
+  color: #4D516D;
+}
