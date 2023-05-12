@@ -2,7 +2,11 @@
 ---
 @import "{{ site.theme }}";
 
-@mixin theme($theme: AliceBlue) {
+@mixin theme($theme: dark) {
   background: $theme;
-  color: #f0f8ff;
+  color: #4D516D;
+}
+
+.white {
+color: #f0f8ff;
 }
