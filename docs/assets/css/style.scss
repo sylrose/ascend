@@ -1,3 +1,13 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+@mixin theme($theme: dark) {
+  background: $theme;
+  color: #4D516D;
+}
+
+$red-bg : red;
+p{
+    background-color: $red-bg;
+}
