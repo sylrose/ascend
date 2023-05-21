@@ -29,7 +29,7 @@ a {
 /*Sidebar*/
 .sidebar-left {
   background: #fefefe;
-  border: 1px solid #0d8500;
+  border: 1px solid rgb(225, 109, 113);
   width: 250px;
   margin-left:75px;
   padding:15px;
@@ -50,7 +50,7 @@ a {
 .button { 
   text-align:center;
   border-radius: 5px;
-  border: 1px solid green;
+  border: 1px solid rgb(225, 109, 113);
   padding: 10px;
   margin:5px;
   margin-top:10px;
