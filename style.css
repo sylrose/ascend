@@ -4,14 +4,14 @@ body {
 	}
 	
 a {
-  color: #e99ea0;
+  color: rgb(225, 109, 113);
   }
 
 /*Main text section*/
 .main { 
   border-radius: 5px;
   background: #fefefe;
-  border: 1px solid #0d8500;
+  border: 1px solid rgb(225, 109, 113);
   width: 500px;
   padding:15px;
   margin: 20px 25px 25px 400px;
