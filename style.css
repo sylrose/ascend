@@ -1,9 +1,3 @@
-@font-face {
-  font-family: F16;
-  src: url("../ascendblue/Agave-Regular.ttf") format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
 body {
   background: #031200 url("bgif020.gif") fixed; /*Replace with your own background*/
 	color: #101000
