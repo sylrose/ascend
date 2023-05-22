@@ -77,11 +77,6 @@ body {
   height: auto;  
   }
 
-.blinkie {
-  padding:20px;
-  border:10px;
-}
-
 @media(max-width: 1440px) {
     .sideimage {
       max-width: 0%;
