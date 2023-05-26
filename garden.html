@@ -7,6 +7,9 @@
     <link rel="shortcut icon" type="image/png" 
     href="{{ "/docs/assets/img/favicon.png"  | absolute_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+
     <style>
         @font-face {
           font-family: F16;
@@ -31,14 +34,18 @@
     </style>
     <title>garden</title>
     <div class="main">
-    <div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="15dd4e87-5439-4107-bb18-2a2b19bd820b"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+        <script>
+            initComments({
+              node: document.getElementById("comment-section"),
+              defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+              serverName: "cactus.chat",
+              siteName: "<ascend>",
+              commentSectionId: "section1"
+            })
+            </script>
+            
+        <div id="comment-section"></div>
+
 </div>
   </head>
   <body>
