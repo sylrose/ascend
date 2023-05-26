@@ -145,3 +145,7 @@ body {
     }
   }
 
+  .sidebar-left:hover{
+    overflow-y: scroll;
+ }
+ 
