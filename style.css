@@ -43,7 +43,7 @@ body {
   margin-top:-25px;
   min-height:100%;
   position:fixed;
-  overflow:auto;
+  overflow-y: scroll;
   text-align:center;
   }
   
