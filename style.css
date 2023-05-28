@@ -40,11 +40,14 @@ body {
   width: 250px;
   margin-left:75px;
   padding:15px;
+  top: 0;
+  bottom: 0;
   margin-top:-25px;
   min-height:100%;
-  position:fixed;
+  position: fixed;
   overflow-y: scroll;
   text-align:center;
+  
   }
   
 /*Use with <ul> to create a button section in the sidebar.*/
