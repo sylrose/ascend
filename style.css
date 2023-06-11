@@ -160,6 +160,7 @@ body {
  @media(min-width: 1200px) {
   .main{
 margin-right: 400px;
+margin-left: 200px;
   }
   }
  
