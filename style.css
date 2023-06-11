@@ -157,7 +157,7 @@ body {
     overflow-y: scroll;
  }
 
- @media(min-width: 700px) {
+ @media(min-width: 1000px) {
   .main{
 margin-right: 400px;
   }
