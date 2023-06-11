@@ -16,6 +16,9 @@ body {
     auto;
 
 	}
+
+
+
 	
 /*Main text section*/
 .main { 
@@ -91,6 +94,7 @@ body {
     .sidebar-left {
       margin-left: 25px;
       }
+
     
     .main {
       margin-left: 350px;
@@ -103,6 +107,12 @@ body {
       max-width: calc(100% - 900px);
       }
   }
+  @media(min-width: 900px) {
+      .main{
+    margin-right: 400px;
+      }
+      }
+
   
 @media(max-width: 1000px) {
   
