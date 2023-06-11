@@ -107,11 +107,7 @@ body {
       max-width: calc(100% - 900px);
       }
   }
-  @media(min-width: 900px) {
-      .main{
-    margin-right: 400px;
-      }
-      }
+ 
 
   
 @media(max-width: 1000px) {
@@ -160,4 +156,10 @@ body {
   .sidebar-left:hover{
     overflow-y: scroll;
  }
+
+ @media(min-width: 800px) {
+  .main{
+margin-right: 400px;
+  }
+  }
  
