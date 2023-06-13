@@ -195,4 +195,9 @@ margin-right: 300px;
 margin-left: 400px;
   }
   }
- 
+  * {cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1074.cur), auto !important;} 
+  a:hover 
+{cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1073.cur), auto !important;} 
+::selection {
+  background: #ffcddd; /* WebKit/Blink Browsers */
+}
